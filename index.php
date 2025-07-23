@@ -116,26 +116,16 @@ include 'include/header.php' ?>
                 </figure>
             </div>
         </div>
-        <div class="row align-items-center justify-content-between flex-row-">
+        <div class="row align-items-center justify-content-between flex-row-reverse">
             <div class="col-md-6">
                 <div class="quality_content">
                     <h2 class="heading">SOMETHING SPECIAL?</h2>
-                    <h3 class="subHeading">SHOWCASE YOUR BUSINESS</h3>
                     <p>
                         Anything you want captured, we can deliver. Anywhere in the world 🌎
                     </p>
                     <p>
                         We are ready to meet even the most challenging videography and photography requirements,
                         globally.
-                    </p>
-                    <h3 class="subHeading">TAKE IT EASY 💅</h3>
-                    <p>
-                        No more cancelled shoots and bad edits.
-                    </p>
-                    <p>
-                        We'll match you with an industry-leading professional photographer. All images are processed
-                        using
-                        AI and delivered within record time.
                     </p>
                     <div>
                         <a href="" class="themeBtn">Let’s Talk</a>
@@ -145,6 +135,65 @@ include 'include/header.php' ?>
             <div class="col-md-6">
                 <figure class="quality_img">
                     <img src="images/quality-img2.png" alt="image" class="img-fluid">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="work_section padd-y">
+    <div class="container">
+        <div class="work_title text-center mb-5">
+            <h2 class="heading">HOW IT WORKS</h2>
+        </div>
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-5">
+                <div class="work_content">
+                    <span>01</span>
+                    <h3 class="subHeading">CHOOSE THE TIME THAT WORKS BEST FOR YOU</h3>
+                    <p>
+                        We'll match you with an industry leading professional photographer who can't wait to shoot your
+                        content.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <figure class="quality_img">
+                    <img src="images/quality-img1.jpg" alt="image" class="img-fluid">
+                </figure>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-5">
+                <div class="work_content">
+                    <span>02</span>
+                    <h3 class="subHeading">CHOOSE THE TIME THAT WORKS BEST FOR YOU</h3>
+                    <p>
+                        We'll match you with an industry leading professional photographer who can't wait to shoot your
+                        content.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <figure class="quality_img">
+                    <img src="images/quality-img1.jpg" alt="image" class="img-fluid">
+                </figure>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-5">
+                <div class="work_content">
+                    <span>03</span>
+                    <h3 class="subHeading">CHOOSE THE TIME THAT WORKS BEST FOR YOU</h3>
+                    <p>
+                        We'll match you with an industry leading professional photographer who can't wait to shoot your
+                        content.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <figure class="quality_img">
+                    <img src="images/quality-img1.jpg" alt="image" class="img-fluid">
                 </figure>
             </div>
         </div>

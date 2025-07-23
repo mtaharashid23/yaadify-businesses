@@ -242,3 +242,19 @@ html.lenis body {
 	object-fit: cover;
 	border-radius: .5rem;
 }
+
+/* work_section */
+.work_content span {
+	background: #fdf2ca;
+	width: 32px;
+	height: 32px;
+	border-radius: .25rem;
+}
+
+.work_content .subHeading {
+
+}
+
+.work_content p {
+
+}
