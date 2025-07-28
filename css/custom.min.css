@@ -7,10 +7,10 @@
 :root {
 	--white: #fff;
 	--black: #121212;
-	--primary: #ffcb00;
-	--lemon-chiffon: #fdf2ca;
+	--primary: #850389;
+	--lemon-chiffon: rgb(133 3 137 / 40%);
 	--dim-grey: #737373;
-	--secondary: #333333;
+	--secondary: #373736;
 }
 
 ::selection {
@@ -111,7 +111,7 @@ html.lenis body {
 	width: fit-content;
 	display: block;
 	background-color: var(--primary);
-	color: var(--black);
+	color: var(--white);
 	font-size: 1rem;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -155,6 +155,10 @@ html.lenis body {
 }
 
 /* main_banner */
+.main_banner {
+	overflow: unset;
+	padding-bottom: 40rem;
+}
 .main_banner_content h1 {
 	font-size: 5rem;
 	font-weight: 600;
@@ -165,6 +169,52 @@ html.lenis body {
 .main_banner_content p {
 	max-width: 28em;
 	margin: 0 auto 2rem;
+}
+
+.grid-item.is--customers-item {
+	z-index: -1;
+	justify-content: center;
+	align-items: flex-start;
+	height: 57.5rem;
+	margin-bottom: 0;
+	padding-left: 7.2vw;
+	padding-right: 7.2vw;
+	display: flex;
+	position: absolute;
+	inset: 7.0625rem 0 0%;
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	top: 4rem;
+}
+
+.cust-column_img {
+    width: 12rem;
+    margin-top: 34.25rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    padding-bottom: 0;
+}
+
+.cust-column_img.is--first {
+    margin-top: 18.5rem;
+}
+
+.customers-img {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    display: inline-block;
+}
+
+.cust-column_img.is--second {
+    margin-top: 26.5rem;
+}
+
+.customers-hero_shape {
+    margin-bottom: -2rem;
+    position: absolute;
+    inset: auto 0% 0%;
 }
 
 /* service_section */
@@ -219,15 +269,21 @@ html.lenis body {
 }
 
 /* quality_section */
+.quality_section .row:not(:last-child) {
+	margin-bottom: 4rem;
+}
+
 .quality_content .heading {
 	margin-bottom: 2.25rem;
 }
 
-.quality_content .subHeading {
+.quality_content .subHeading,
+.work_content .subHeading {
 	margin-bottom: 1rem;
 }
 
-.quality_content p {
+.quality_content p,
+.work_content p {
 	color: #737373;
 	line-height: 1.6;
 }
@@ -244,17 +300,126 @@ html.lenis body {
 }
 
 /* work_section */
+.work_section {
+	background-image: linear-gradient(#f5f5f580, #fafafa);
+}
+
+.work_section .row:not(:last-child) {
+	margin-bottom: 2.25rem;
+}
+
+.work_content {
+	display: flex;
+	gap: 2.5rem;
+}
+
 .work_content span {
-	background: #fdf2ca;
-	width: 32px;
-	height: 32px;
+	background: rgb(133 3 137 / 50%);
+	width: 48px;
+	height: 36px;
+	display: grid;
+	place-items: center;
 	border-radius: .25rem;
+	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 .work_content .subHeading {
-
+	font-size: 2rem;
 }
 
-.work_content p {
+/* testimonial_section */
+.testimonial_section {
+	background: var(--black);
+}
 
+.testimonial_img img {
+	width: 100%;
+	height: 40rem;
+	object-fit: cover;
+}
+
+.testimonial_content {
+	padding: 2em 12em 2em 0;
+}
+
+.testimonial_content figure {
+	background-color: var(--primary);
+	border-radius: .25rem;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	margin-bottom: 1.5rem;
+	display: flex;
+}
+
+.testimonial_content h3 {
+	font-size: 2.25rem;
+	margin-bottom: 1.5rem;
+	line-height: 1.2;
+	color: var(--white);
+}
+
+.testimonial_content h3 span {
+	font-size: 2.25rem;
+	color: var(--primary);
+	line-height: 1.2;
+	display: block;
+}
+
+.testimonial_content h4 {
+	color: #f5f5f5;
+	font-size: 1.3125rem;
+	line-height: 1.6;
+}
+
+.testimonial_content span {
+	color: #737373;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+/* faq_section */
+.faq_accordion .accordion-item {
+	border: none;
+}
+
+.faq_accordion .accordion-button {
+	background: transparent;
+	color: var(--black);
+	border-radius: 0;
+	box-shadow: none;
+	border-bottom: 1px solid #0000001a;
+	padding: 1em 0;
+}
+
+.faq_accordion .accordion-button span {
+	margin-right: 3rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.faq_accordion .accordion-button h5 {
+	color: var(--black);
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0;
+}
+
+.faq_accordion .accordion-body {
+	padding: 1em 2em 1em 4em;
+	border-bottom: 1px solid #0000001a;
+}
+
+.faq_accordion .accordion-body p {
+	color: #303030;
+	line-height: 1.5;
+}
+
+/* lets_do */
+.lets_do {
+	background: var(--lemon-chiffon);
 }
