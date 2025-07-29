@@ -1,4 +1,4 @@
-<?php $title = "Home";
+<?php $title = "Yaadify";
 include 'include/header.php' ?>
 
 <section class="main_banner padd-y">
@@ -7,7 +7,7 @@ include 'include/header.php' ?>
             <div class="col-md-8">
                 <div class="main_banner_content text-center">
                     <figure class="main_banner_img">
-                        <img src="images/banner-logo.png" alt="image" class="img-fluid">
+                        <img src="images/logo.png" alt="image" class="img-fluid">
                     </figure>
                     <h1>
                         ELEVATE YOUR BRAND WITH FLASHY BESPOKE
