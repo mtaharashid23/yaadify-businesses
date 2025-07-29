@@ -430,8 +430,6 @@ html.lenis body {
 	background: var(--lemon-chiffon);
 }
 
-.lets_do_content * {color: var(--white);}
-
 /* Footer Start */
 .footer {
 	background: var(--primary);
