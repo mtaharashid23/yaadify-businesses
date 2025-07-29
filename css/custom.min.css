@@ -117,6 +117,8 @@ html.lenis body {
 	text-transform: capitalize;
 	padding: 0.7em 2.25em;
 	border-radius: .5rem;
+	outline: none;
+	border: none;
 }
 
 .themeBtn:hover {
